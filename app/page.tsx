@@ -12,7 +12,7 @@ import {
   RiRouteLine,
 } from 'react-icons/ri'
 import {
-  HiOutlineExclamationTriangle,
+  HiOutlineExclamationCircle,
   HiOutlineCheckCircle,
   HiOutlineClock,
 } from 'react-icons/hi'
@@ -167,7 +167,7 @@ function StatusBadge({ status, label }: { status: 'online' | 'warning' | 'standb
   }
   const icons = {
     online: <HiOutlineCheckCircle className="w-3.5 h-3.5 mr-1" />,
-    warning: <HiOutlineExclamationTriangle className="w-3.5 h-3.5 mr-1" />,
+    warning: <HiOutlineExclamationCircle className="w-3.5 h-3.5 mr-1" />,
     standby: <HiOutlineClock className="w-3.5 h-3.5 mr-1" />,
   }
   return (
@@ -251,7 +251,7 @@ export default function Page() {
           {/* ---- Hero Section ---- */}
           <section className={`text-center space-y-6 transition-all duration-700 delay-100 ${fadeIn}`}>
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-amber-900/20 border border-amber-800/30 text-amber-400 text-xs font-medium tracking-wide">
-              <HiOutlineExclamationTriangle className="w-3.5 h-3.5" />
+              <HiOutlineExclamationCircle className="w-3.5 h-3.5" />
               Service Interruption Detected
             </div>
             <h2 className="font-serif text-4xl md:text-5xl font-semibold text-foreground tracking-wide leading-tight">
@@ -268,7 +268,7 @@ export default function Page() {
               <CardHeader className="pb-3">
                 <CardTitle className="font-serif text-lg font-semibold tracking-wide flex items-center gap-3">
                   <div className="p-2 rounded-lg bg-amber-900/20 border border-amber-800/30">
-                    <HiOutlineExclamationTriangle className="w-4 h-4 text-amber-400" />
+                    <HiOutlineExclamationCircle className="w-4 h-4 text-amber-400" />
                   </div>
                   Error Details
                 </CardTitle>
