@@ -1,11 +1,11 @@
 {
   "nodes": [
-    { "id": "input_node", "type": "Input", "label": "User Query", "nodeCategory": "input" },
-    { "id": "status_display", "type": "Agent", "label": "App Status Display", "nodeCategory": "agent" },
-    { "id": "output_node", "type": "Output", "label": "Status Response", "nodeCategory": "end" }
+    { "id": "input_node", "type": "Input", "label": "User Research Query / URL", "nodeCategory": "input" },
+    { "id": "research_agent", "type": "Agent", "label": "Research Analyzer Agent", "nodeCategory": "agent" },
+    { "id": "output_node", "type": "Output", "label": "Analyzed Research Data", "nodeCategory": "end" }
   ],
   "edges": [
-    { "source": "input_node", "target": "status_display" },
-    { "source": "status_display", "target": "output_node" }
+    { "source": "input_node", "target": "research_agent" },
+    { "source": "research_agent", "target": "output_node" }
   ]
 }

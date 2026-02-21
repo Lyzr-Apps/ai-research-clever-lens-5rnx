@@ -1,0 +1,10 @@
+{
+  "agents": {
+    "research_analyzer": {
+      "agent_id": "699a2fb82248bbbc86582a33",
+      "name": "Research Analyzer",
+      "type": "json",
+      "accessor": "result"
+    }
+  }
+}

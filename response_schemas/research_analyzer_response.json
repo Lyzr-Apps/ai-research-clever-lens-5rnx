@@ -1,0 +1,68 @@
+{
+  "agent_name": "Research Analyzer",
+  "agent_id": "699a2fb82248bbbc86582a33",
+  "description": "AI-driven research analyzer that processes URLs, articles, GitHub repos, tools, and topics. Automatically extracts key information, generates tags, assigns categories, scores relevance, and provides summaries for a personal knowledge management workspace.",
+  "agent_type": "json",
+  "accessor": "result",
+  "auto_generated": true,
+  "response_schema": {
+    "title": "string",
+    "summary": "string",
+    "input_type": "string",
+    "tags": [
+      "string"
+    ],
+    "primary_category": "string",
+    "sub_categories": [
+      "string"
+    ],
+    "key_technologies": [
+      "string"
+    ],
+    "use_cases": [
+      "string"
+    ],
+    "quality_score": "number",
+    "relevance_score": "number",
+    "innovation_score": "number",
+    "suggested_collections": [
+      "string"
+    ],
+    "highlights": [
+      "string"
+    ],
+    "related_topics": [
+      "string"
+    ]
+  },
+  "example_response": {
+    "title": "sample string",
+    "summary": "sample string",
+    "input_type": "sample string",
+    "tags": [
+      "sample string"
+    ],
+    "primary_category": "sample string",
+    "sub_categories": [
+      "sample string"
+    ],
+    "key_technologies": [
+      "sample string"
+    ],
+    "use_cases": [
+      "sample string"
+    ],
+    "quality_score": 0,
+    "relevance_score": 0,
+    "innovation_score": 0,
+    "suggested_collections": [
+      "sample string"
+    ],
+    "highlights": [
+      "sample string"
+    ],
+    "related_topics": [
+      "sample string"
+    ]
+  }
+}
